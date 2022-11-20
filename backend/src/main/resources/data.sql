@@ -22,3 +22,8 @@ INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('2.0
 INSERT INTO tb_resource (title, description, position, img_Uri,type,offer_id) VALUES ('Trilha HTML','Trilha Principal do curso',1,'https://www.publicdomainpictures.net/pictures/290000/nahled/training-course.jpg',1,1);
 INSERT INTO tb_resource (title, description, position, img_Uri,type,offer_id) VALUES ('Forum','Tire suas dúvidas',2,'https://www.publicdomainpictures.net/pictures/290000/nahled/training-course.jpg',2,1);
 INSERT INTO tb_resource (title, description, position, img_Uri,type,offer_id) VALUES ('Lives','Lives exlusivas para a turma',3,'https://www.publicdomainpictures.net/pictures/290000/nahled/training-course.jpg',0,1);
+
+
+INSERT INTO tb_section (title, description, position, img_Uri,resource_id,prerequisite_id) VALUES ('Capitulo 1','Vamos começar',1,'https://www.publicdomainpictures.net/pictures/290000/nahled/training-course.jpg',1,null);
+INSERT INTO tb_section (title, description, position, img_Uri,resource_id,prerequisite_id) VALUES ('Capitulo 2','Vamos continuar neste capitulo',2,'https://www.publicdomainpictures.net/pictures/290000/nahled/training-course.jpg',1,1);
+INSERT INTO tb_section (title, description, position, img_Uri,resource_id,prerequisite_id) VALUES ('Capitulo 3','Vamos finalizar neste capitulo',3,'https://www.publicdomainpictures.net/pictures/290000/nahled/training-course.jpg',1,2);
