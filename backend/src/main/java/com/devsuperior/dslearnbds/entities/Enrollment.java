@@ -16,7 +16,7 @@ public class Enrollment implements Serializable {
     @EmbeddedId
     private EnrollmentPK id = new EnrollmentPK();
     @Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
-    private Instant enrollMoment;
+    private Instant enrollMoment;  // INSTANTE QUE SERÁ MATRICULADO
     @Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
     private Instant refundMoment; // reembolso
     private boolean available;
