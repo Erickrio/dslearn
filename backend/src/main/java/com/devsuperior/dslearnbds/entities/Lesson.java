@@ -31,7 +31,7 @@ public abstract class Lesson implements Serializable {
     )
     private Set<Enrollment> enrollmentsDone = new HashSet<>();
 
-    private Lesson(){}
+    public Lesson(){}
 
     public Lesson(Long id, String title, Integer position, Section section) {
         super();
