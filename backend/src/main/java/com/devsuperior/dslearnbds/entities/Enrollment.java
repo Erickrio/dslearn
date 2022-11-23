@@ -24,6 +24,7 @@ public class Enrollment implements Serializable {
     @ManyToMany(mappedBy = "enrollmentsDone")
     private Set<Lesson> lessonsDone = new HashSet<>();
 
+
     public Enrollment (){}
 
 
