@@ -1,4 +1,4 @@
-package com.devsuperior.dslearnbds.exceptions;
+package com.devsuperior.dslearnbds.resources.exceptions;
 
 import java.time.Instant;
 
