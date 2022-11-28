@@ -24,14 +24,11 @@ public class Deliver implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String uri;
-	
 	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	private Instant moment;
-	
 	private DeliverStatus status;
 	private String feedback;
 	private Integer correctCount;
-	
 	@ManyToOne
 	@JoinColumns({  
 		@JoinColumn(name = "offer_id"), 
